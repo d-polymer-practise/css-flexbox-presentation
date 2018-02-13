@@ -1,0 +1,8 @@
+.parent {
+    display: flex;
+    height: 175px;
+}
+
+.child:nth-child(3) {
+    margin-right: auto;
+}

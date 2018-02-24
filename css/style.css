@@ -53,71 +53,71 @@ select {
 	max-height: 350px;
 }
 
-.parent {
+.flex-parent {
 	background: #34495e;
 	padding: 10px;
 	display: flex;
 }
 
-.child {
+.flex-child {
 	padding: 10px;
 	color: #fff;
 	overflow: hidden;
 }
 
-.child:nth-child(1){
+.flex-child:nth-child(1){
 	background: #e74c3c;
 }
 
-.child:nth-child(1):before {
+.flex-child:nth-child(1):before {
 	content: '1.\00a0 Red';
 }
 
-.child:nth-child(2){
+.flex-child:nth-child(2){
 	background: #3498db;
 }
 
-.child:nth-child(2):before {
+.flex-child:nth-child(2):before {
 	content: '2.\00a0 Blue';
 }
 
-.child:nth-child(3){
+.flex-child:nth-child(3){
 	background: #f1c40f;
 }
 
-.child:nth-child(3):before {
+.flex-child:nth-child(3):before {
 	content: '3.\00a0 Yellow';
 }
 
-.child:nth-child(4){
+.flex-child:nth-child(4){
 	background: #1abc9c;
 }
 
-.child:nth-child(4):before {
+.flex-child:nth-child(4):before {
 	content: '4.\00a0 Turquoise';
 }
 
-.child:nth-child(5){
+.flex-child:nth-child(5){
 	background: #e67e22;
 }
 
-.child:nth-child(5):before {
+.flex-child:nth-child(5):before {
 	content: '5.\00a0 Orange';
 }
 
-.child:nth-child(6){
+.flex-child:nth-child(6){
 	background: #9b59b6;
 }
 
-.child:nth-child(6):before {
+.flex-child:nth-child(6):before {
 	content: '6.\00a0 Purple';
 }
 
-.child:nth-child(7){
+.flex-child:nth-child(7){
 	background: #95a5a6;
 }
 
-.child:nth-child(7):before {
+.flex-child:nth-child(7):before {
 	content: '7.\00a0 Grey';
 }
 
